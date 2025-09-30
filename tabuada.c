@@ -27,16 +27,15 @@ void mostraResumo(int qtdPessoas){
     printf("==================================\n")
 }
 
-int main()
+int main(){
     int pessoas;
-    int valor;
+    float valor;
 
     printf("Digite o nemero de participantes: ");
     scanf("%d", &pessoas);
-
-    print(" Qual tabuada voce quer?");
-    scanf("%d",&numero);
-
-    for(int i=0; i<=10; i++)
-        print("&d", i);
-        { 
+    for (int i = 1; i <= pessoas; i++){
+        printf("Digite a contribuição do participante %d: R$ ", i);
+        adicionaContrbuição(valor);
+}
+mostraResumo(pessoas);
+return 0;
